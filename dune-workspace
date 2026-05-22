@@ -1,0 +1,8 @@
+(lang dune 3.0)
+
+; Disable warnings:
+; - "unused-var-strict"
+; - "duplicate-definitions"
+; - "unused-value-declaration"
+; - "unused-type-declaration"
+(env (_ (flags :standard -w -27-30-32-34)))
