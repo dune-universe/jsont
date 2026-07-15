@@ -29,6 +29,7 @@ homepage: "https://github.com/dune-universe/jsont"
 bug-reports: "https://github.com/dune-universe/jsont/issues"
 depends: [
   "ocaml" {>= "4.14.0"}
+  "dune" {>= "3.0"}
 ]
 depopts: ["bytesrw"]
 build: [ "dune" "build" "-p" name "-j" jobs ]
